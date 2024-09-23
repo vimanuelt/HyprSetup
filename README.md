@@ -153,4 +153,4 @@ This project is licensed under the **BSD 3-Clause License**.
 
 ## Contribution
 
-If you would like to contribute, feel free to open a pull request or submit an issue on the [GitHub repository](https://github.com/vimanuel/hyprland-setup).
+If you would like to contribute, feel free to open a pull request or submit an issue on the [GitHub repository](https://github.com/vimanuelt/hyprland-setup).
