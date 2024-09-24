@@ -64,6 +64,8 @@ Once you run `hyprsetup`, you will be presented with a menu that offers several 
 5. **Exit**:
    - Quits the application.
 
+<img src='./img/hyprsetup.png' width=60%>
+
 ## Configuration
 
 - The **`hyprland.conf`** file is included in the current directory and will be copied to `~/.config/hypr/` during the installation process. You can modify this file according to your needs before running the setup.
