@@ -21,24 +21,38 @@ Before running the application, ensure that you have the following:
 
 ## Installation
 
-1. **Clone the repository**:
+### Step 1: Install Go
+Make sure Go is installed on your system:
 
-   ```bash
-   git clone https://github.com/vimanuelt/hyprland-setup.git
-   cd hyprland-setup
-   ```
+```bash
+sudo pkg install go
+```
 
-2. **Compile the Go application**:
+### Step 2: Clone and Build HyprSetup
 
-   ```bash
-   go build -o hyprsetup hyprsetup.go
-   ```
+Clone the HyprSetup repository and build the application:
 
-3. **Run the Setup Assistant**:
+```bash
+git clone https://github.com/vimanuelt/HyprSetup
+cd HyprSetup
+go mod init HyprSetup
+go mod tidy
+go build -o HyprSetup .
+```
 
-   ```bash
-   sudo ./hyprsetup
-   ```
+### Step 3: Prepare the Configuration File
+
+Make sure you have the `hyprland.conf` file in the same directory as the HyprSetup application.
+
+### Step 4: Run HyprSetup
+
+Once everything is set up, you can run HyprSetup:
+
+```bash
+./HyprSetup
+```
+
+HyprSetup will guide you through installing Hyprland and configuring it.
 
 ## Usage
 
