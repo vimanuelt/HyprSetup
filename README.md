@@ -1,6 +1,6 @@
 # Hyprland Setup Assistant for FreeBSD
 
-Hyprland Setup Assistant is a Go-based command-line tool designed to simplify the installation, configuration, and troubleshooting of the **Hyprland** window manager on **FreeBSD**. This application ensures that all necessary packages are installed, environment variables are properly set, and services like **DBus** are up and running.
+Hyprland Setup Assistant is a Go-based command-line tool designed to simplify the installation, configuration, and troubleshooting of the **Hyprland** window manager on **GhostBSD**. This application ensures that all necessary packages are installed, environment variables are properly set, and services like **DBus** are up and running.
 
 ## Features
 
@@ -15,7 +15,7 @@ Hyprland Setup Assistant is a Go-based command-line tool designed to simplify th
 
 Before running the application, ensure that you have the following:
 
-1. **FreeBSD** system with `pkg` as the package manager.
+1. **GhostBSD** system with `pkg` as the package manager.
 2. **sudo** installed to allow the tool to manage packages and services with elevated privileges.
 3. The **Go programming language** installed (for compiling from source).
 
